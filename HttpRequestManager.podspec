@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HttpRequestManager"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "request for Http"
 
   # This description is used to generate tags and improve search results.
@@ -80,8 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git =https://github.com/huanying2000/IPHttpRequestManager.git", :tag => s.version }
-
+ s.source = { :git => "https://github.com/huanying2000/IPHttpRequestManager.git", :tag => s.version }
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
